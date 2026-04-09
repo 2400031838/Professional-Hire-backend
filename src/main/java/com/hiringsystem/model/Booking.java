@@ -3,7 +3,7 @@ package com.hiringsystem.model;
 import jakarta.persistence.*;
 
 @Entity
-public class Booking {
+public class Booking {         //modelclass
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
