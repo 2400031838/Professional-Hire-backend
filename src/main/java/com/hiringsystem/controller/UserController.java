@@ -11,7 +11,7 @@ import java.util.List;
 
 @RestController
 @CrossOrigin(origins = "http://localhost:5173")
-public class UserController {
+public class UserController {                 //ControllerClass
 
     private final UserRepository repo;
     private final ProfessionalRepository professionalRepo;
