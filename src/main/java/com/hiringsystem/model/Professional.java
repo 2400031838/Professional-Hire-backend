@@ -5,7 +5,7 @@ import jakarta.persistence.*;
 @Entity
 public class Professional {
 
-    @Id
+    @Id                                                        //modelclass
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
