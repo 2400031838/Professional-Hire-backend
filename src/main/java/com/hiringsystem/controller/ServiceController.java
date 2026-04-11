@@ -30,4 +30,9 @@ public class ServiceController {
     public List<Service> getBySubCategory(@PathVariable String sub) {
         return serviceRepository.findBySubCategory(sub);
     }
+    @DeleteMapping("/delete/{id}")
+    public String deleteService(@PathVariable int id) {
+        serviceRepository.deleteById(id);
+        return "Service deleted successfully";
+    }
 }
