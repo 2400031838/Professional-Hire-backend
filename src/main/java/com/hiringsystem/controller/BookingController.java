@@ -15,7 +15,7 @@ public class BookingController {
 
     @Autowired
     private BookingRepository bookingRepository;
-
+//postmapping
     @PostMapping("/add")
     public Booking addBooking(@RequestBody Booking booking) {
         return bookingRepository.save(booking);
