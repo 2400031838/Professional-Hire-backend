@@ -12,7 +12,7 @@ import java.util.List;
 @CrossOrigin(origins = "http://localhost:5173")
 @RequestMapping("/booking")
 public class BookingController {
-
+//autowired
     @Autowired
     private BookingRepository bookingRepository;
 //postmapping
