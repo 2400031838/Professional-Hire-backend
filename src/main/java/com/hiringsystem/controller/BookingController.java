@@ -20,7 +20,7 @@ public class BookingController {
     public Booking addBooking(@RequestBody Booking booking) {
         return bookingRepository.save(booking);
     }
-      //getmapping
+      //getmapping1
     @GetMapping("/professional/{email}")
     public List<Booking> getByProfessional(@PathVariable String email) {
         return bookingRepository.findByProfessionalEmail(email);
