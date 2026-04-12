@@ -14,7 +14,7 @@ public class Service {
     private String name;
     private String price;
 
-    private String email; // ✅ PROFESSIONAL EMAIL
+    private String email; // ✅ THIS IS PROFESSIONAL EMAIL
 
     public Service() {}
 
