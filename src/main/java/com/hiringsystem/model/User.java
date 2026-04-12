@@ -14,7 +14,7 @@ public class User {
     private String password;
     private String role;
 
-    // GETTERS
+    // GETTERSS
     public int getId() { return id; }
     public String getName() { return name; }
     public String getEmail() { return email; }
